@@ -1,0 +1,10 @@
+# This file provides instructions for packaging.
+
+`Acme-Lexical-Thief`
+	perl_version_from m`Acme::Lexical::Thief`;
+	version_from      m`Acme::Lexical::Thief`;
+	readme_from       m`Acme::Lexical::Thief`;
+	requires          p`Keyword::Simple 0`;
+	requires          p`PadWalker 0`;
+	test_requires     p`Test::Fatal 0`;
+	.
