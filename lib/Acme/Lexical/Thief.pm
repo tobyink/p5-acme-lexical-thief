@@ -7,7 +7,7 @@ no warnings qw( once void uninitialized numeric );
 
 BEGIN {
 	$Acme::Lexical::Thief::AUTHORITY = 'cpan:TOBYINK';
-	$Acme::Lexical::Thief::VERSION   = '0.001';
+	$Acme::Lexical::Thief::VERSION   = '0.002';
 }
 
 use Carp;
